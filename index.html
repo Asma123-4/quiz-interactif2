@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Interactif</title>
+    <link rel="stylesheet" href="indexx.css">
+    <link rel="icon" type="image/jpeg" href="img/quiz.jpg">
+
+</head>
+<body>
+    <header>
+        <div class="conteneur-entete">
+            <img src="img/01.jpg" alt="Logo">
+            <h1>Quiz</h1>
+        </div>
+    </header>
+
+    <article>
+        <section>
+            <main class="main-content">
+                <div class="auth-container">
+                    <h2>Authentification</h2>
+                    <form>
+                        <label for="nomUtilisateur">Nom d'utilisateur :</label>
+                        <input type="text" id="nomUtilisateur" name="nomUtilisateur" required placeholder="Entrez votre nom">
+                        <label for="motDePasse">Mot de passe :</label>
+                        <input type="password" id="motDePasse" name="motDePasse" required placeholder="Entrez votre mot de passe">
+                        <button type="button" id="boutonConnexion" class="bouton-se-connecter">Se connecter</button>
+                    </form>
+                </div>
+            </main>
+        </section>
+    </article>
+
+    <footer>
+        <p>&copy; 2024 - Tous droits réservés</p>
+    </footer>
+
+    <script>
+        document.getElementById('boutonConnexion').addEventListener('click', function() {
+            var nomUtilisateur = document.getElementById('nomUtilisateur').value;
+            var motDePasse = document.getElementById('motDePasse').value;
+
+            if(nomUtilisateur && motDePasse) {
+                window.location.href = 'commencer.html';
+            } else {
+                alert("Veuillez entrer votre nom d'utilisateur et votre mot de passe.");
+            }
+        });
+    </script>
+</body>
+</html>

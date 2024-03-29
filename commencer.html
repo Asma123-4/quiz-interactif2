@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Interactif</title>
+    <link rel="stylesheet" href="commencer1.css">
+    <link rel="icon" type="image/jpeg" href="img/quiz.jpg">
+
+</head>
+<body>
+    <header>
+        <div class="conteneur-entete">
+            <img src="img/01.jpg" alt="Logo">
+            <h1>Quiz</h1>
+        </div>
+    </header>
+
+    <article>
+        <section>
+            <main class="main-content">
+                <div class="phrase-container">
+                    <h2>Vous êtes prêt pour le quiz ?</h2>
+                    <button id="boutonCommencer" class="bouton-commencer">Commencer</button>
+                </div>
+            </main>
+        </section>
+    </article>
+
+    <footer>
+        <p>&copy; 2024 - Tous droits réservés</p>
+    </footer>
+
+    <script>
+        document.getElementById('boutonCommencer').addEventListener('click', function() {
+            window.location.href = 'index1.html'; 
+        });
+    </script>
+</body>
+</html>

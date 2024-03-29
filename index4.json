@@ -1,0 +1,69 @@
+[
+    {
+        "question": "Quelle propriété CSS est utilisée pour rendre le texte en italique ?",
+        "options": ["font-style", "font-weight", "font-decoration", "font-italic"],
+       "answer": 0
+    },
+    {
+        "question": "Quelle fonction JavaScript est utilisée pour arrondir un nombre à l'entier le plus proche ?",
+        "options": ["round()", "ceil()", "floor()", "truncate()"],
+        "answer": 0
+    },
+    {
+        "question": "Quelle propriété CSS est utilisée pour définir la couleur du texte ?",
+        "options": ["color", "text-color", "font-color", "text-style"],
+        "answer": 0
+    },
+    {
+        "question": "Quelle méthode JavaScript est utilisée pour concaténer deux tableaux ?",
+        "options": ["concat()", "merge()", "join()", "combine()"],
+        "answer": 0
+    },
+    {
+        "question": "Quelle propriété CSS est utilisée pour définir l'espacement entre les lignes de texte ?",
+        "options": ["line-height", "text-spacing", "line-spacing", "text-line"],
+        "answer": 0
+    },
+    {
+        "question": "Quelle propriété CSS est utilisée pour centrer un élément horizontalement ?",
+        "options": ["align-center", "center-align", "margin-center", "text-align"],
+        "answer": 3
+    },
+    {
+        "question": "Quelle méthode JavaScript est utilisée pour ajouter un élément à la fin d'un tableau ?",
+        "options": ["addToEnd()", "push()", "append()", "addLast()"],
+         "answer": 1
+    },
+    
+    {
+        "question": "Quelle propriété CSS est utilisée pour définir la largeur d'un élément ?",
+        "options": ["size", "width", "element-width", "dimension"],
+        "answer": 1
+    },
+    {
+        "question": "Quelle propriété CSS est utilisée pour définir la taille de la police de caractères en pourcentage de la taille de la police de caractères par défaut du navigateur ?",
+        "options": ["font-size", "text-size", "size", "font-percent"],
+        "answer": 0
+    },
+    {
+        "question": "Quelle méthode JavaScript est utilisée pour convertir un nombre en chaîne de caractères ?",
+        "options": ["toString()", "convertToString()", "stringify()", "numberToString()"],
+        "answer": 0
+    },
+    {
+        "question": "Quelle est la méthode JavaScript utilisée pour supprimer le dernier élément d'un tableau ?",
+        "options": ["removeLast()", "pop()", "deleteLast()", "spliceLast()"],
+        "answer": 1
+    },
+    {
+        "question": "Quelle propriété CSS est utilisée pour définir la couleur de fond d'un élément en utilisant une valeur RGBA ?",
+        "options": ["background-color", "background", "color", "rgba-color"],
+        "answer": 0
+    },
+    {
+        "question": "Quelle méthode JavaScript est utilisée pour déterminer la longueur d'une chaîne de caractères ?",
+        "options": ["length()", "size()", "count()", "charAt()"],
+        "answer": 0
+    }
+
+]
